@@ -1,9 +1,23 @@
 body {
-    background-color: black;
-    color: aliceblue;
-
+    background-color: #141414;
+    color: #b4b4b4;
 }
 
 nav {
-    background: rgba(102, 102, 102, 0.5);
+    background: #141414b3;
+    scroll-behavior: smooth;
+}
+
+footer {
+    background-color: #44c0cc;
+    color: white;
+}
+
+.card {
+    background-color: #44c0cc;
+}
+
+.card-title,
+.card-text {
+    color: white;
 }
