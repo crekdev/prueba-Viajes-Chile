@@ -46,24 +46,3 @@ footer {
 #enviarCorreo:hover {
   transform: scale(1.05);
 }
-
-.carousel-item,
-.carousel-inner,
-.carousel {
-
-  @include sm {
-    height: 300px;
-  }
-
-  @include lg {
-    height: 500px;
-  }
-
-  @include xl {
-    height: 500px;
-  }
-
-  @include xxl {
-    height: 500px;
-  }
-}

@@ -1,0 +1,56 @@
+.carousel {
+
+  @include sm {
+    height: 300px;
+  }
+
+  @include lg {
+    height: 500px;
+  }
+
+  @include xl {
+    height: 500px;
+  }
+
+  @include xxl {
+    height: 500px;
+  }
+
+  .carousel-inner {
+
+    @include sm {
+      height: 300px;
+    }
+
+    @include lg {
+      height: 500px;
+    }
+
+    @include xl {
+      height: 500px;
+    }
+
+    @include xxl {
+      height: 500px;
+    }
+
+    .carousel-item {
+
+      @include sm {
+        height: 300px;
+      }
+
+      @include lg {
+        height: 500px;
+      }
+
+      @include xl {
+        height: 500px;
+      }
+
+      @include xxl {
+        height: 500px;
+      }
+    }
+  }
+}

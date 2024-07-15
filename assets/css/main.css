@@ -1,12 +1,67 @@
 @charset "UTF-8";
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
-/* components
-@import
-  'components/card';
+@media (min-width: 576px) {
+  .carousel {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 576px) {
+  .carousel .carousel-inner {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel .carousel-inner {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel .carousel-inner {
+    height: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel .carousel-inner {
+    height: 500px;
+  }
+}
+@media (min-width: 576px) {
+  .carousel .carousel-inner .carousel-item {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel .carousel-inner .carousel-item {
+    height: 500px;
+  }
+}
 
-// pages
-
-// themes
+/*// themes
 @import 'themes/theme';
 */
 /*Estilos body*/
@@ -56,33 +111,4 @@ footer {
 .card:hover,
 #enviarCorreo:hover {
   transform: scale(1.05);
-}
-
-@media (min-width: 576px) {
-  .carousel-item,
-  .carousel-inner,
-  .carousel {
-    height: 300px;
-  }
-}
-@media (min-width: 992px) {
-  .carousel-item,
-  .carousel-inner,
-  .carousel {
-    height: 500px;
-  }
-}
-@media (min-width: 1200px) {
-  .carousel-item,
-  .carousel-inner,
-  .carousel {
-    height: 500px;
-  }
-}
-@media (min-width: 1400px) {
-  .carousel-item,
-  .carousel-inner,
-  .carousel {
-    height: 500px;
-  }
 }/*# sourceMappingURL=main.css.map */
