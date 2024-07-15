@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+/* components
+@import
+  'components/card';
+
+// pages
+
+// themes
+@import 'themes/theme';
+*/
+/*Estilos body*/
+body {
+  background-color: #141414;
+  color: #b4b4b4;
+  font-family: "Roboto", sans-serif;
+}
+
+/*Estilos barra de navegación*/
+nav {
+  scroll-behavior: smooth;
+}
+
+/*Estilos barra de footer*/
+footer {
+  background-color: #145860;
+  color: white;
+}
+
+/*Estilos de card + transition para efecto al :hover*/
+.card {
+  background-color: #145860;
+  transition: 0.3s;
+}
+
+.card-title,
+.card-text {
+  color: white;
+}
+
+/*Estilos de boton enviar + transition para efecto al :hover*/
+#enviarCorreo {
+  background-color: #145860;
+  color: white;
+  transition: 0.3s;
+}
+
+/*Estilo de iconos*/
+#icon {
+  background-color: #145860;
+}
+
+/*Reescalar tamaño de elemento card y boton enviar al :hover*/
+.card:hover,
+#enviarCorreo:hover {
+  transform: scale(1.05);
+}
+
+@media (min-width: 576px) {
+  .carousel-item,
+  .carousel-inner,
+  .carousel {
+    height: 300px;
+  }
+}
+@media (min-width: 992px) {
+  .carousel-item,
+  .carousel-inner,
+  .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 1200px) {
+  .carousel-item,
+  .carousel-inner,
+  .carousel {
+    height: 500px;
+  }
+}
+@media (min-width: 1400px) {
+  .carousel-item,
+  .carousel-inner,
+  .carousel {
+    height: 500px;
+  }
+}/*# sourceMappingURL=main.css.map */
