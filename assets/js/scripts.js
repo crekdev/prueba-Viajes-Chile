@@ -4,7 +4,7 @@ $("#enviarCorreo").on("click", function () {
 })
 
 //Cambia el fondo del nav al scrolear
-$(window).scroll(function () {
+/*$(window).scroll(function () {
     $("nav").css({
         "background": "#141414b3",
     })
@@ -15,4 +15,4 @@ $("#nav").on("click", function () {
     $("nav").css({
         "background": "#141414b3",
     })
-})
+})*/

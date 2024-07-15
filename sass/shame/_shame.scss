@@ -8,6 +8,8 @@ body {
 /*Estilos barra de navegación*/
 nav {
   scroll-behavior: smooth;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 
 /*Estilos barra de footer*/
