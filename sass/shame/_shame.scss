@@ -1,4 +1,4 @@
-/*Estilos body*/
+/*Estilos body casi todo va a theme*/
 body {
   background-color: #141414;
   color: #b4b4b4;
@@ -18,31 +18,3 @@ footer {
   color: white;
 }
 
-/*Estilos de card + transition para efecto al :hover*/
-.card {
-  background-color: #145860;
-  transition: 0.3s;
-}
-
-.card-title,
-.card-text {
-  color: white;
-}
-
-/*Estilos de boton enviar + transition para efecto al :hover*/
-#enviarCorreo {
-  background-color: #145860;
-  color: white;
-  transition: 0.3s;
-}
-
-/*Estilo de iconos*/
-#icon {
-  background-color: #145860;
-}
-
-/*Reescalar tamaño de elemento card y boton enviar al :hover*/
-.card:hover,
-#enviarCorreo:hover {
-  transform: scale(1.05);
-}

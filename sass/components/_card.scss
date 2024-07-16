@@ -1,0 +1,8 @@
+/*Estilos de card + transition para efecto al :hover*/
+.card {
+  transition: 0.3s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+}
