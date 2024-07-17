@@ -1,4 +1,4 @@
-# Viajes Chile (HTML5, CSS, Bootstrap, JQuery)
+# Viajes Chile (HTML5, CSS, Bootstrap, Javascript)
 
 ## Atajos
 
@@ -31,10 +31,23 @@ prueba-Viajes-Chile/
 │   │     ├── card1.jpg
 │   │     ├── card2.jpg
 │   │     ├── card3.jpg
-│   │     └── card4.jpg
-│   └── js/
-│       └── scripts.js
-│
+│   │     ├── card4.jpg
+│   │     ├── testimonio1.jpg
+│   │     ├── testimonio2.jpg
+│   │     └── testimonio3.jpg
+│   ├── js/
+│   │     └── scripts.js
+│   └── sass/
+│         └── main.scss
+│         ├── abstracts
+│         ├── base
+│         ├── components
+│         ├── layout
+│         ├── pages
+│         ├── themes
+│         ├── vendors
+│         └── shame
+│      
 ├── index.html
 └── README.md
 ```
@@ -44,19 +57,10 @@ prueba-Viajes-Chile/
 - **HTML5**
 - **CSS**
 - **Bootstrap 5.3.3**
-- **Font Awesome** iconos utilizados:
-    ```html
-    <i class="fa fa-plane"></i>
-    <i class="fa fa-suitcase"></i>
-    <i class="fa fa-globe"></i>
-    <i class="fa fa-instagram"></i>
-    <i class="fa fa-linkedin"></i>
-    <i class="fa fa-twitter"></i>
-    <i class="fa fa-facebook-official"></i>
-    ```
+- **Javascript**
+- **Font Awesome**
 - **Google Fonts**: Se utilizó:
-  - [Roboto]
-- **jQuery 3.7.1.**
+  - [OpenSans]
 
 ## Uso
 
