@@ -1,4 +1,4 @@
-# Viajes Chile (HTML5, CSS, Bootstrap, JQuery)
+# Viajes Chile (HTML5, CSS, Bootstrap, Javascript)
 
 ## Atajos
 
@@ -31,10 +31,23 @@ prueba-Viajes-Chile/
 │   │     ├── card1.jpg
 │   │     ├── card2.jpg
 │   │     ├── card3.jpg
-│   │     └── card4.jpg
-│   └── js/
-│       └── scripts.js
-│
+│   │     ├── card4.jpg
+│   │     ├── testimonio1.jpg
+│   │     ├── testimonio2.jpg
+│   │     └── testimonio3.jpg
+│   ├── js/
+│   │     └── scripts.js
+│   └── sass/
+│         └── main.scss
+│         ├── abstracts
+│         ├── base
+│         ├── components
+│         ├── layout
+│         ├── pages
+│         ├── themes
+│         ├── vendors
+│         └── shame
+│      
 ├── index.html
 └── README.md
 ```
