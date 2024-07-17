@@ -5,4 +5,12 @@
   &:hover {
     transform: scale(1.05);
   }
+
+  &.card-text {
+    &--bottom {
+      background-color: white;
+      padding-block: 1rem;
+      padding-inline: 0.3rem;
+    }
+  }
 }

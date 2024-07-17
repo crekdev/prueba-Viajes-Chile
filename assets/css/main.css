@@ -1,5 +1,10 @@
 @charset "UTF-8";
 @import '../../node_modules/bootstrap/dist/css/bootstrap.css';
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #b4b4b4;
+}
+
 @media (min-width: 576px) {
   .carousel,
   .carousel-inner,
@@ -43,6 +48,11 @@
 .card:hover {
   transform: scale(1.05);
 }
+.card.card-text--bottom {
+  background-color: white;
+  padding-block: 1rem;
+  padding-inline: 0.3rem;
+}
 
 .testimonio {
   display: block;
@@ -83,14 +93,14 @@
   }
 }
 
-/*// themes
-@import 'themes/theme';
-*/
 /*Estilos body casi todo va a theme*/
 body {
   background-color: #141414;
-  color: #b4b4b4;
-  font-family: "Roboto", sans-serif;
+}
+
+/*Estilos en titulos*/
+h2 {
+  font-weight: 700;
 }
 
 /*Estilos barra de navegación*/
@@ -103,5 +113,5 @@ nav {
 /*Estilos barra de footer*/
 footer {
   background-color: #145860;
-  color: white;
+  color: #b4b4b4;
 }/*# sourceMappingURL=main.css.map */
